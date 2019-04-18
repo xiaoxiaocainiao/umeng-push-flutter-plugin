@@ -1,0 +1,38 @@
+PODS:
+  - Flutter (1.0.0)
+  - UMCCommon (2.0.0)
+  - UMCPush (3.2.3):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
+  - umeng_push_flutter_plugin (0.0.1):
+    - Flutter
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - umeng_push_flutter_plugin (from `.symlinks/plugins/umeng_push_flutter_plugin/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  umeng_push_flutter_plugin:
+    :path: ".symlinks/plugins/umeng_push_flutter_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  UMCCommon: 79b5a614c958db367113eed5740109d9a98e1223
+  UMCPush: 628b5c61be5a5036cb31eb9b3a3ab8dce7521691
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  umeng_push_flutter_plugin: f078ba0468624ec35748e578f09438b2cc43323e
+
+PODFILE CHECKSUM: d231b65d6bea6d24555f84ca7901720538b5791f
+
+COCOAPODS: 1.5.3

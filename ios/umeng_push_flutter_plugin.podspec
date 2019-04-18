@@ -17,9 +17,11 @@ A Flutter plugin for umeng push service
   s.dependency 'Flutter'
 
 
-    s.name = 'UMCCommon'
-    s.name = 'UMCPush'
-    s.name = 'UMCSecurityPlugins'
+    s.dependency 'UMCCommon'
+    s.dependency 'UMCPush'
+    s.dependency 'UMCSecurityPlugins'
+
+  s.static_framework = true
 
   s.ios.deployment_target = '9.0'
 end

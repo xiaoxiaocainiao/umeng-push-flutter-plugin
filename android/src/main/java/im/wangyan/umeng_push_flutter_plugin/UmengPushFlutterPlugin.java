@@ -66,13 +66,13 @@ public class UmengPushFlutterPlugin implements MethodCallHandler {
             public void onSuccess(String deviceToken) {
                 //注册成功会返回deviceToken deviceToken是推送消息的唯一标志
                 Log.d(TAG, "注册成功：deviceToken：-------->  " + deviceToken);
-                channel.invokeMethod("registerUmengPushCallback", true);
+                channel.invokeMethod("registeUmengPushCallback", true);
             }
 
             @Override
             public void onFailure(String s, String s1) {
                 Log.d(TAG, "注册失败：-------->  " + "s:" + s + ",s1:" + s1);
-                channel.invokeMethod("registerUmengPushCallback", false);
+                channel.invokeMethod("registeUmengPushCallback", false);
             }
         });
         mPushAgent.setMessageHandler(messageHandler);

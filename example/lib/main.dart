@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
     UmengPushFlutterPlugin.getChannel()
         .setMethodCallHandler((MethodCall call) async {
       switch (call.method) {
-        case 'registerUmengPushCallback':
+        case 'registeUmengPushCallback':
           print("注册友盟推送的结果是:${call.arguments}");
           if (!mounted) return;
           setState(() {
